@@ -6,8 +6,8 @@ function fib(n) {
         numFib = arr[k-1]+arr[k-2];
         arr.push(numFib);
     }
-    console.log(arr[num-1]);
+    return arr[num-1];
 }
-fib(6);
+console.log(fib(1));
 
 

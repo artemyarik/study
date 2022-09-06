@@ -5,7 +5,7 @@ console.log(typeof(fontSize));
 //TO NUMBER=> добавить унарный плюс перед строкой
 console.log(typeof(+'15px'));
 
-let ans = +prompt("how old are you?","")
+let ans = +prompt("how old are you?","");
 
 //TO BOOLEAN
 
@@ -23,3 +23,4 @@ if(bool){
 }
 
 console.log(typeof(!!'4444')); //булиан, два знака отрицания 
+
